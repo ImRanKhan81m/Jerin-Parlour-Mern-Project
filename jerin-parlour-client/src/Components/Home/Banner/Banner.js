@@ -5,7 +5,7 @@ import img from '../../../assets/Image_Icon/Image/beautiful-young-asian-woman-to
 const Banner = () => {
     return (
         <div className='mid-container'>
-            <div className='grid grid-cols-2  mt-10'>
+            <div className='grid grid-cols-2  mt-10 pb-10'>
                 <div className='flex items-center'>
                     <div>
                         <h1 className='text-5xl font-bold mb-5 leading-[60px]'>BEAUTY SALON <br /> FOR EVERY WOMEN</h1>
