@@ -16,7 +16,7 @@ const Home = () => {
             </div>
             <Services />
             <div className='bg-secondary lg:py-36 md:py-20 py-10'><Advertise /></div>
-            <div className='py-28'><Testimonials /></div>
+            <div className='lg:py-28 md:py-20 py-16'><Testimonials /></div>
             <div className=' bg-secondary'><Contact /></div>
             <div className=' bg-primary pt-16 pb-40'><Footer/></div>
             

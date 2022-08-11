@@ -3,7 +3,7 @@ import React from 'react';
 const Contact = () => {
     return (
         <div className='mid-container'>
-            <h1 className='text-4xl font-bold text-center  py-24'>Let us handle your <br /> project, professionally</h1>
+            <h1 className='lg:text-4xl text-3xl font-bold text-center  lg:py-24 md:py-16 py-10'>Let us handle your <br /> project, professionally</h1>
 
             <form action="" className='lg:w-3/4 mx-auto pb-12'>
                 <div className='text-center mb-5 grid grid-cols-2 gap-5'>
