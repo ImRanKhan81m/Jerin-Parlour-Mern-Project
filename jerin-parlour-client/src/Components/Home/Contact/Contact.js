@@ -10,11 +10,11 @@ const Contact = () => {
                     <input type="text" placeholder="Full Name" class="input w-full  " />
                     <input type="text" placeholder="Last Name" class="input w-full " />
 
-                    <input type="text" placeholder="Full Name" class="input w-full" />
-                    <input type="text" placeholder="Last Name" class="input w-full" />
+                    <input type="text" placeholder="Email Address" class="input w-full" />
+                    <input type="text" placeholder="Phone Number" class="input w-full" />
                 </div>
                 <div className='text-center w-full h-40'>
-                    <textarea class="textarea w-full mr-5 h-full" placeholder="Bio"></textarea>
+                    <textarea class="textarea w-full mr-5 h-full" placeholder="Your Message"></textarea>
                 </div>
                 <div className='text-center'>
                     <button className='btn btn-primary mt-7 '>Send Message</button>
