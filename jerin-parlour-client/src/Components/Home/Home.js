@@ -15,7 +15,7 @@ const Home = () => {
                 <Banner />
             </div>
             <Services />
-            <div className='bg-secondary py-36'><Advertise /></div>
+            <div className='bg-secondary lg:py-36 md:py-20 py-10'><Advertise /></div>
             <div className='py-28'><Testimonials /></div>
             <div className=' bg-secondary'><Contact /></div>
             <div className=' bg-primary pt-16 pb-40'><Footer/></div>

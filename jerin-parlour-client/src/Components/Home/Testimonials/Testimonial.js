@@ -5,9 +5,9 @@ import img3 from '../../../assets/Image_Icon/Image/Ellipse 92.png'
 
 const Testimonial = () => {
     return (
-        <div className='grid grid-cols-3 gap-5'>
+        <div className='grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 gap-10 lg:text-start md:text-start text-center'>
             <div>
-                <div className='flex gap-4'>
+                <div className='flex gap-4 lg:justify-start md:justify-start justify-center'>
                     <div className='w-16'>
                         <img src={img1} alt="" />
                     </div>
@@ -27,7 +27,7 @@ const Testimonial = () => {
                 </div>
             </div>
             <div>
-                <div className='flex gap-4'>
+                <div className='flex gap-4 lg:justify-start md:justify-start justify-center'>
                     <div className='w-16'>
                         <img src={img2} alt="" />
                     </div>
@@ -47,7 +47,7 @@ const Testimonial = () => {
                 </div>
             </div>
             <div>
-                <div className='flex gap-4'>
+                <div className='flex gap-4 lg:justify-start md:justify-start justify-center'>
                     <div className='w-16'>
                         <img src={img3} alt="" />
                     </div>

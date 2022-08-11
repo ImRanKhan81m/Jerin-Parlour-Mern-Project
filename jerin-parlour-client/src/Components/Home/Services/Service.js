@@ -6,7 +6,7 @@ import service3 from '../../../assets/Image_Icon/Icon/Group 1374.png'
 const Service = () => {
     return (
         <>
-            <div className='grid grid-cols-3 gap-10'>
+            <div className='grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 gap-10'>
                 <div className='text-center shadow-xl p-10 rounded-xl bg-[#ffffff6b]'>
                     <div className='w-20 mx-auto'>
                         <img className='mx-auto w-full' src={service1} alt="" />
